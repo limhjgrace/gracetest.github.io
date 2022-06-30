@@ -7,7 +7,7 @@
     '15e6f7f0-3dbd-4bf5-9da2-23ab47b5a13c',
     '1.0.0',
     'us-east-1',
-    'https://client.rum.us-east-1.amazonaws.com/1.2.1/cwr.js',
+    'https://client.rum.us-east-1.amazonaws.com/1.5.x/cwr.js',
     {
       sessionSampleRate: 1,
       guestRoleArn: "arn:aws:iam::469298696772:role/RUM-Monitor-us-east-1-469298696772-5358155004461-Unauth",
@@ -15,7 +15,7 @@
       endpoint: "https://dataplane.rum.us-east-1.amazonaws.com",
       telemetries: ["performance","errors","http"],
       allowCookies: false,
-      enableXRay: false
+      enableXRay: true
     }
   );
 </script>
