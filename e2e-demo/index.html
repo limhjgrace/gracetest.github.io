@@ -15,9 +15,11 @@
       endpoint: "https://dataplane.rum.us-west-2.amazonaws.com",
       telemetries: ["performance","errors","http"],
       allowCookies: true,
-      enableXRay: true
+      enableXRay: true,
+      disableAutoPageView: true
     }
   );
+  cwr('recordPageView', { pageId: '/home', pageTags: ['en', 'landing']});
 </script>
 <meta charset="UTF-8">
     <title>Demo Page for Testing</title>
