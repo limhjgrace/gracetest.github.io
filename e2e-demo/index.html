@@ -10,6 +10,8 @@
     'https://client.rum.us-east-1.amazonaws.com/1.5.x/cwr.js',
     {
       sessionSampleRate: 1,
+      guestRoleArn: "arn:aws:iam::973532300540:role/RUM-Monitor-us-west-2-973532300540-3957584324561-Unauth",
+      identityPoolId: "us-west-2:f9669674-4b5a-404b-87c8-e5d81e848995",
       endpoint: "https://dataplane.rum.us-west-2.amazonaws.com",
       telemetries: ["performance","errors","http"],
       allowCookies: true,
