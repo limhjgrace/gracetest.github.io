@@ -4,22 +4,20 @@
 <script>
   (function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})(
     'cwr',
-    '78355b24-e09f-4c10-ab43-a161313fc9ef',
+    'affe0a41-6101-4f3f-87fe-0b3cb18d44fb',
     '1.0.0',
-    'us-west-2',
-    'https://client.rum.us-east-1.amazonaws.com/1.8.x/cwr.js',
+    'us-east-1',
+    'https://client.rum.us-east-1.amazonaws.com/1.5.x/cwr.js',
     {
       sessionSampleRate: 1,
-      guestRoleArn: "arn:aws:iam::973532300540:role/RUM-Monitor-us-west-2-973532300540-3957584324561-Unauth",
-      identityPoolId: "us-west-2:f9669674-4b5a-404b-87c8-e5d81e848995",
-      endpoint: "https://dataplane.rum.us-west-2.amazonaws.com",
+      guestRoleArn: "arn:aws:iam::750664202209:role/RUM-Monitor-us-east-1-750664202209-4627972039461-Unauth",
+      identityPoolId: "us-east-1:889a2e9f-cf09-4e30-9cae-55dbdf2a59f1",
+      endpoint: "https://dataplane.rum.us-east-1.amazonaws.com",
       telemetries: ["performance","errors","http"],
-      allowCookies: true,
-      enableXRay: true,
-      disableAutoPageView: true
+      allowCookies: false,
+      enableXRay: false
     }
   );
-  cwr('recordPageView', { pageId: '/home', pageTags: ['en', 'landing']});
 </script>
 <meta charset="UTF-8">
     <title>Demo Page for Testing</title>
